@@ -1,0 +1,48 @@
+<div class="row">
+   <div class="col-md-10 mb-auto">
+      <h4>
+         <span class="text-muted font-weight-light">All Companies</span>
+      </h4>
+   </div>
+   <div class="col-md-2 my-auto">
+      <button type="button" class="btn btn-primary float-left" (click)="addCompany()">
+         <span class="far fa-paper-plane"></span>
+      </button>
+   </div>
+</div>
+<br/>
+
+<hr class="container-m-nx border-light mt-0 mb-4">
+
+<div class="demo-vertical-spacing">
+   <div class="card">
+      <div class="card-ngx-datatable table-responsive">
+         <ngx-datatable #table style="min-width: 550px" 
+            [rows]="rows" 
+            [loadingIndicator]="loadingIndicator"
+            [columnMode]="'force'" 
+            [headerHeight]="43" 
+            [footerHeight]="'auto'" 
+            [rowHeight]="'auto'" 
+            [reorderable]="true"
+            [selected]="selected" 
+            [selectionType]="'checkbox'" 
+            [limit]="8" 
+            (select)='onSelect($event)'
+            (activate)="onActivate($event)">
+            <ngx-datatable-column 
+               [width]="40" 
+               [sortable]="false" 
+               [canAutoResize]="false" 
+               [draggable]="false"
+               [resizeable]="false" 
+               [headerCheckboxable]="true" 
+               [checkboxable]="true">
+            </ngx-datatable-column>
+            <ngx-datatable-column name="Name"></ngx-datatable-column>
+            <ngx-datatable-column name="Gender"></ngx-datatable-column>
+            <ngx-datatable-column name="Company"></ngx-datatable-column>
+         </ngx-datatable>
+      </div>
+   </div>
+</div>

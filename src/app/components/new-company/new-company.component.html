@@ -1,0 +1,82 @@
+<div class="modal-header">
+   <h5 class="modal-title">
+      Add Company
+   </h5>
+</div>
+<div class="modal-body">
+   <form class="m-t form-horizontal" role="form" action="#">
+      <div class="form-group">
+         <label >Company Name</label>
+         <input type="username" class="form-control" placeholder="Company Name" required="">
+      </div>
+      <div class="form-group">
+         <label >Contact Name</label>
+         <input type="contact" class="form-control" placeholder="Contact Name" required="">
+      </div>
+      <div class="form-group">
+         <label >Contact email</label>
+         <input type="email" class="form-control" placeholder="Contact Email" required="">
+      </div>
+      <div class="form-group">
+         <label >Account Excecutive</label>
+         <input type="executive" class="form-control " placeholder="Account Excecutive" required="">
+      </div>
+      <div class="form-group">
+         <label >Segment</label>
+         <select name="" id="" class="form-control m-b">
+            <option value="">Enterprise</option>
+            <option value="">Corp</option>
+         </select>
+      </div>
+      <div class="form-group">
+         <label >Renewal Date</label>
+         <div class="input-group date">
+            <input type="text" class="form-control" value="03/04/2014"> <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+         </div>
+      </div>
+      <div class="form-group">
+         <label >Flag Details</label>
+         <select name="" id="" class="form-control m-b">
+            <option value="">Introduction by AE pending</option>
+            <option value="">Customer contact unreacheable</option>
+            <option value="">Customer contact unresponsive</option>
+            <option value="">Customer declined offer</option>
+            <option value="">Customer reviewing prerequsites</option>
+            <option value="">Cusomter's arpproval pending</option>
+            <option value="">Disengage</option>
+            <option value="">On hold</option>
+            <option value="">Postponed</option>
+            <option value="">Ohter(see commments)</option>
+         </select>
+      </div>
+      <div class="form-group">
+         <label >Detiled Status *</label>
+         <select name="" id="" class="form-control m-b">
+            <option value="">New</option>
+            <option value="">Invited</option>
+            <option value="">Kickoff Scheduled</option>
+            <option value="">Kickoff Accepted</option>
+            <option value="">Kickoff Completed</option>
+            <option value="">Discovery (Standby)</option>
+            <option value="">Discovery Started</option>
+            <option value="">Analysis</option>
+            <option value="">Deliverables Ready</option>
+            <option value="">Closed Won</option>
+            <option value="">Closed Lost</option>
+         </select>
+      </div>
+      <div class="form-group">
+         <label >Close type</label>
+         <select name="" id="" class="form-control m-b">
+            <option value="">Open</option>
+            <option value="">Lost</option>
+            <option value="">Won</option>
+         </select>
+      </div>
+      <div class="form-group">
+         <label >Comments</label>
+         <input type="comments" class="form-control" placeholder="Enter value here" required="">
+      </div>
+      <button type="submit" class="btn btn-primary block full-width m-b" (click)="closeModal()">Generate Credentials</button>
+   </form>
+</div>

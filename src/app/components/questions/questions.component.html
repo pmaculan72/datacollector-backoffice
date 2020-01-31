@@ -1,0 +1,64 @@
+<div class="wrapper wrapper-content">
+   <div class="ibox ">
+      <div class="">
+         <table class="footable table table-stripped toogle-detail-table" id="toogle-detail-table">
+            <thead>
+               <tr>
+                  <th>#</th>
+                  <th>Question</th>
+                  <th>Completed </th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr class="footable-even">
+                  <td>
+                     <a>
+                        <span (click)="togleData($event)" class="footable-toggle-hide"></span>
+                     </a>
+                     1
+                  </td>
+                  <td>¿Cuenta con Directorio Activo?</td>
+                  <td><a href="#"><i class="fa fa-times text-red"></i></a></td>
+               </tr>
+               <tr class="footable-row-detail" style="display: none;">
+                  <td class="footable-row-detail-cell" colspan="4">
+                     <div class="footable-row-detail-inner">
+                        <div class="footable-row-detail-row">
+                           <div class="footable-row-detail-name">Respuesta</div>
+                           <div class="footable-row-detail-value">Si cuenta con directorios activos</div>
+
+                        </div>
+                     </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="footable-toggle"></span>
+                     2
+                  </td>
+
+
+                  <td>¿Cuántos dominios posee?
+                  </td>
+                  <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="footable-toggle"></span>
+                     3
+                  </td>
+                  <td>¿Qué porcentaje de sus equipos de cómputo (desktops y laptops) están en dominio?</td>
+                  <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="footable-toggle"></span>
+                     4</td>
+                  <td>¿Qué porcentaje de sus servidores están en dominio?</td>
+                  <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>

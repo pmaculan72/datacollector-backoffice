@@ -1,0 +1,38 @@
+<div class="row">
+   <div class="col-md">
+      <div class="card text-center mb-3">
+         <div class="card-header">
+            <h5 class="align-left">GDC ALIMENTOS SA</h5>
+         </div>
+         <div class="card-body">
+            <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+               <li [ngbNavItem]="1">
+                  <a ngbNavLink>Company Details</a>
+                  <ng-template ngbNavContent>
+                     <app-about-company></app-about-company>
+                  </ng-template>
+               </li>
+               <li [ngbNavItem]="2">
+                  <a ngbNavLink>Questions</a>
+                  <ng-template ngbNavContent>
+                     <app-questions></app-questions>
+                  </ng-template>
+               </li>
+               <li [ngbNavItem]="3">
+                  <a ngbNavLink>Files</a>
+                  <ng-template ngbNavContent>
+                     <app-files></app-files>
+                  </ng-template>
+               </li>
+               <li [ngbNavItem]="4">
+                  <a ngbNavLink>Messages</a>
+                  <ng-template ngbNavContent>
+                     <app-messages></app-messages>
+                  </ng-template>
+               </li>
+            </ul>
+            <div [ngbNavOutlet]="nav"></div>
+         </div>
+      </div>
+   </div>
+</div>
