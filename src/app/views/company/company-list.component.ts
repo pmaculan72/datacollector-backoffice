@@ -71,7 +71,7 @@ export class CompanyListComponent {
    }
 
    onActivate(event) {
-      if ( event.type === 'click' ) {
+      if ( event.type === 'click' && !event.column.checkboxable ) {
          this.router.navigate(['/company-detail']);
       }
    }
