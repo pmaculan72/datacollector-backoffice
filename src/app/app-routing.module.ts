@@ -13,6 +13,7 @@ import { Layout1Component } from './views/layout/layout-1/layout-1.component';
 import { HomeComponent } from './views/home/home.component';
 import { CompanyListComponent } from './views/company/company-list.component';
 import { CompanyDetailComponent } from './views/company/company-detail.component';
+import {UserListComponent } from './views/users/user-list.component';
 
 // *******************************************************************************
 // Routes
@@ -32,6 +33,10 @@ const routes: Routes = [
    {
       path: 'company-detail', component: Layout1Component,
       children: [{ path: '', component: CompanyDetailComponent }]
+   },
+   {
+      path: 'all-users', component: Layout1Component,
+      children: [{ path: '', component: UserListComponent }]
    },
 
    // 404 Not Found page

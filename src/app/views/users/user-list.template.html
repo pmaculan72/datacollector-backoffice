@@ -1,0 +1,76 @@
+<div class="wrapper wrapper-content animated fadeInRight">
+   <div class="row">
+      <div class="col-lg-12">
+         <div class="ibox ">
+            <div class="ibox-title">
+               <h5>All Users </h5>
+               <button (click)="addCompany()" class="btn btn-primary btn-circle pull-right " type="button"><i
+                     class="fa fa-plus"></i>
+               </button>
+               <br>
+               <br>
+            </div>
+            <div class="ibox-content">
+               <table class="footable table table-stripped toggle-arrow-tiny footable-loaded tablet breakpoint"
+                  data-show-toggle="false" data-toggle-column="last">
+                  <thead>
+                     <tr>
+                        <th data-toggle="true"
+                           class="footable-visible footable-first-column footable-sortable footable-sorted">Username<span class="footable-sort-indicator"></span></th>
+                        <th data-toggle="true"
+                           class="footable-visible footable-first-column footable-sortable footable-sorted">
+                           Email<span class="footable-sort-indicator"></span></th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr class="footable-even " onclick="window.location='/#/new-company';">
+                        <td class="footable-visible footable-first-column">
+                           Username 1 
+                        </td>
+                        <td class="footable-visible">user1@email.com</td>
+                     </tr>
+                     <tr class="footable-even" style="">
+                        <td class="footable-visible footable-first-column">
+                           Username 2
+                        </td>
+                        <td class="footable-visible">user1@email.com</td>
+                     </tr>
+                     <tr class="footable-even" style="">
+                        <td class="footable-visible footable-first-column">
+                           Username 3
+                        </td>
+                        <td class="footable-visible">username@email.com</td>
+                     </tr>
+                     <tr class="footable-even" style="">
+                        <td class="footable-visible footable-first-column">
+                           Username 4
+                        </td>
+                        <td class="footable-visible">user@email.com</td>
+                     </tr>
+                     <tr class="footable-even" style="">
+                        <td class="footable-visible footable-first-column">
+                           Username 5
+                        </td>
+                        <td class="footable-visible">user@email.com</td>
+                     </tr>
+                  </tbody>
+                  <tfoot>
+                     <tr>
+                        <td colspan="5" class="footable-visible">
+                           <ul class="pagination float-right">
+                              <li class="footable-page-arrow disabled"><a data-page="first" href="#first">«</a></li>
+                              <li class="footable-page-arrow disabled"><a data-page="prev" href="#prev">‹</a></li>
+                              <li class="footable-page active"><a data-page="0" href="#">1</a></li>
+                              <li class="footable-page"><a data-page="1" href="#">2</a></li>
+                              <li class="footable-page-arrow"><a data-page="next" href="#next">›</a></li>
+                              <li class="footable-page-arrow"><a data-page="last" href="#last">»</a></li>
+                           </ul>
+                        </td>
+                     </tr>
+                  </tfoot>
+               </table>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
