@@ -23,7 +23,7 @@ import { ThemeSettingsModule } from '../vendor/libs/theme-settings/theme-setting
 
 import { HomeComponent } from './views/home/home.component';
 import { CompanyModule } from './views/company/company.module';
-import { UserListComponent } from './views/users/user-list.component';
+import { UserModule } from './views/users/user.module';
 
 // *******************************************************************************
 //
@@ -32,7 +32,6 @@ import { UserListComponent } from './views/users/user-list.component';
   declarations: [
     AppComponent,
     NotFoundComponent,
-    UserListComponent,
 
     // Pages
     HomeComponent,
@@ -41,6 +40,7 @@ import { UserListComponent } from './views/users/user-list.component';
   imports: [
     BrowserModule,
     CompanyModule,
+    UserModule,
     NgbModule,
 
     // App
