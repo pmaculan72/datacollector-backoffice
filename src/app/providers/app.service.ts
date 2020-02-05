@@ -8,7 +8,7 @@ export class AppService {
 
   // Set page title
   set pageTitle(value: string) {
-    this.titleService.setTitle(`${value} - Angular Starter`);
+    this.titleService.setTitle(`${value} - Apeiron Sumus`);
   }
 
   // Check for RTL layout
