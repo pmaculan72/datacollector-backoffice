@@ -35,7 +35,7 @@ export class UserListComponent  {
 
   fetch(cb) {
     const req = new XMLHttpRequest();
-    req.open('GET', `assets/json/ngx-datatable-data.json`);
+    req.open('GET', `assets/json/users.json`);
 
     req.onload = () => {
        const data = JSON.parse(req.response);
