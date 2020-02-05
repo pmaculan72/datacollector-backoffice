@@ -20,6 +20,7 @@ export class UserListComponent  {
   loadingIndicator = true;
   rows = [];
   selected = [];
+  temp = [];
   constructor( private appService: AppService) {
     this.fetch((data) => {
       // cache our list
