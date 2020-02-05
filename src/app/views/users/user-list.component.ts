@@ -1,3 +1,4 @@
+import { AppService } from 'src/app/providers/app.service';
 import { Component,  ViewChild } from '@angular/core';
 import { DatatableComponent } from '@swimlane/ngx-datatable';
 import { NewCompanyComponent } from 'src/app/components/new-company/new-company.component';
@@ -17,6 +18,7 @@ export class UserListComponent  {
   @ViewChild(DatatableComponent, { static: false }) table: DatatableComponent;
 
   rows = [];
-  constructor() {}
+  selected = [];
+  constructor( private appService: AppService) {}
   
 }
