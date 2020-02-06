@@ -1,76 +1,74 @@
 [
-    {
-        "company-name": "COMERC COMERCIALIZADOA DE ENERGIA ELECTRICA LTDA",
-        "email": "comerc@ltda.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-
-    {
-        "company-name": " COOPERATIVA DOS PLANTADORES DE CANA DO OESTE DO ESTADO DE SP",
-        "email": "email@companydomain.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": "GDC ALIMENTOS SA",
-        "email": "email@companydomain.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": "HARALD INDÚSTRIA E COMÉRCIO DE ALIMENTOS LTDA",
-        "email": "comerc@ltda.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": "MÁQUINAS AGRÍCOLAS JACTO S/A",
-        "email": "email@companydomain.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": " MICRO SERVICOS LOGISTICOS S.A",
-        "email": "email@companydomain.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": "COMERC COMERCIALIZADOA DE ENERGIA ELECTRICA LTDA",
-        "email": "comerc@ltda.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-
-    {
-        "company-name": " COOPERATIVA DOS PLANTADORES DE CANA DO OESTE DO ESTADO DE SP",
-        "email": "email@companydomain.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": "GDC ALIMENTOS SA",
-        "email": "email@companydomain.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": "HARALD INDÚSTRIA E COMÉRCIO DE ALIMENTOS LTDA",
-        "email": "comerc@ltda.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": "MÁQUINAS AGRÍCOLAS JACTO S/A",
-        "email": "email@companydomain.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    },
-    {
-        "company-name": " MICRO SERVICOS LOGISTICOS S.A",
-        "email": "email@companydomain.com",
-        "status": "NEW",
-        "start-date": "24/01/2020"
-    }
+   {
+      "company-name": "COMERC COMERCIALIZADOA DE ENERGIA ELECTRICA LTDA",
+      "email": "comerc@ltda.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": " COOPERATIVA DOS PLANTADORES DE CANA DO OESTE DO ESTADO DE SP",
+      "email": "email@companydomain.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": "GDC ALIMENTOS SA",
+      "email": "email@companydomain.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": "HARALD INDÚSTRIA E COMÉRCIO DE ALIMENTOS LTDA",
+      "email": "comerc@ltda.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": "MÁQUINAS AGRÍCOLAS JACTO S/A",
+      "email": "email@companydomain.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": " MICRO SERVICOS LOGISTICOS S.A",
+      "email": "email@companydomain.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": "COMERC COMERCIALIZADOA DE ENERGIA ELECTRICA LTDA",
+      "email": "comerc@ltda.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": " COOPERATIVA DOS PLANTADORES DE CANA DO OESTE DO ESTADO DE SP",
+      "email": "email@companydomain.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": "GDC ALIMENTOS SA",
+      "email": "email@companydomain.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": "HARALD INDÚSTRIA E COMÉRCIO DE ALIMENTOS LTDA",
+      "email": "comerc@ltda.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": "MÁQUINAS AGRÍCOLAS JACTO S/A",
+      "email": "email@companydomain.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   },
+   {
+      "company-name": " MICRO SERVICOS LOGISTICOS S.A",
+      "email": "email@companydomain.com",
+      "status": "NEW",
+      "start-date": "24/01/2020"
+   }
 ]

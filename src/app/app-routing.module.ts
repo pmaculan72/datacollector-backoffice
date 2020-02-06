@@ -5,7 +5,7 @@ import { NotFoundComponent } from './views/not-found/not-found.component';
 // *******************************************************************************
 // Layouts
 
-import { Layout1Component } from './views/layout/layout-1/layout-1.component';
+import { Layout2Component } from './views/layout/layout-2/layout-2.component';
 
 // *******************************************************************************
 // Pages
@@ -21,21 +21,21 @@ import {UserListComponent } from './views/users/user-list.component';
 const routes: Routes = [
 
    {
-      path: '', component: Layout1Component, pathMatch: 'full', children: [
+      path: '', component: Layout2Component, pathMatch: 'full', children: [
          { path: '', component: HomeComponent },
       ]
    },
 
    {
-      path: 'all-companies', component: Layout1Component,
+      path: 'all-companies', component: Layout2Component,
       children: [{ path: '', component: CompanyListComponent }]
    },
    {
-      path: 'company-detail', component: Layout1Component,
+      path: 'company-detail', component: Layout2Component,
       children: [{ path: '', component: CompanyDetailComponent }]
    },
    {
-      path: 'all-users', component: Layout1Component,
+      path: 'all-users', component: Layout2Component,
       children: [{ path: '', component: UserListComponent }]
    },
 

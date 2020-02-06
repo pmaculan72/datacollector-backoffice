@@ -1,32 +1,26 @@
 [
-
-    {
-        "username": "username1",
-        "email": "username1@domain.com"
-    },
-    
-    {
-        "username": "username2",
-        "email": "username2@domain.com"
-    },
-    
-    {
-        "username": "username3",
-        "email": "username3@domain.com"
-    },
-    
-    {
-        "username": "username4",
-        "email": "username4@domain.com"
-    },
-    
-    {
-        "username": "username5",
-        "email": "username5@domain.com"
-    },
-    
-    {
-        "username": "username5",
-        "email": "username5@domain.com"
-    }
+   {
+      "username": "username1",
+      "email": "username1@domain.com"
+   },
+   {
+      "username": "username2",
+      "email": "username2@domain.com"
+   },
+   {
+      "username": "username3",
+      "email": "username3@domain.com"
+   },
+   {
+      "username": "username4",
+      "email": "username4@domain.com"
+   },
+   {
+      "username": "username5",
+      "email": "username5@domain.com"
+   },
+   {
+      "username": "username5",
+      "email": "username5@domain.com"
+   }
 ]
